@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 980px;
+            margin: auto;
+            font-family: tahoma;
+            text-align: center;
+        }
+        .logo {
+            padding: 0px 0px;
+        }
+        .menu {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            height: 38px;
+            margin: 0px;
+            background-color: skyblue;
+            padding: 0px;
+        }
+        .menu li {
+            padding: 10px;
+        }
+        .menu li a {
+            text-decoration: none;
+            font-size: 12pt;
+            color: darkcyan;
+        }
+        .main-container {
+            grid-gap: 10px;
+            padding: 10px 0px;
+            margin: 0px;
+        }
+        footer {
+            background-color:dimgrey;
+        }
+        aside {
+            background-color: sandybrown
+        }
+        #theme_one {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 40px;
+        }
+        .title1 {
+            display: block;
+        }
+        .title2 {
+            display: none;
+        }
+        #theme_two {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 40px;
+        }
+        .product {
+            border: rosybrown 1px solid;
+        }
+        h2 {
+            margin: 0px;
+        }
+        button {
+            margin: 10px;
+            background: darkkhaki;
+        }
+        img {
+            margin: 10px 0px 0px;
+        }
+    </style>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="#">
+                    <img width="980px" height="300px"
+                        src="http://1.bp.blogspot.com/-G24PF9Uvn-8/VXGmOPEgp2I/AAAAAAAAGuU/RQoPfvYwuy0/s1600/hinh-anh-nen-hd-sieu-ro-net-cuc-dep-cho-may-tinh-img032.jpg"
+                        alt="">
+                </a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="index1.html">TRANG CHỦ</a>
+                </li>
+                <li>
+                    <a href="index2.html">SẢN PHẨM</a>
+                </li>
+                <li>
+                    <a href="index4.html">LIÊN HỆ</a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="titlefather">
+                    <div class="products">
+                        <div class="title1">
+                            <div id="theme_one">
+                            </div>
+                        </div>
+                        <div class="title2">
+                            <div id="theme_two">
+                            </div>
+                        </div>
+                    </div>
+                    <button>XEM THÊM...</button>
+                </div>
+            </div>
+            <script src="main1.js"></script>
+        </main>
+        <footer>
+            <h2>Assignment</h2>
+        </footer>
+    </div>
+</body>
+
+</html>

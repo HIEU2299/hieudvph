@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 980px;
+            margin: auto;
+            font-family: tahoma;
+            text-align: center;
+        }
+
+        .logo {
+            background: #5f4453;
+            padding: 0px 0px;
+        }
+
+        .menu {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            height: 38px;
+            margin: 0px;
+            background-color:darkseagreen;
+            padding: 0px;
+        }
+
+        .menu li {
+            padding: 10px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            font-size: 12pt;
+            color: white;
+        }
+
+        .main-container {
+            padding: 10px 0px;
+            margin: 0px;
+        }
+
+        aside {
+            background-color:deepskyblue;
+        }
+
+        #products {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 30px;
+        }
+
+        .product {
+            border: rosybrown 1px solid;
+        }
+
+        footer {
+            background-color:dimgrey;
+        }
+
+        h2 {
+            margin: 0px;
+        }
+
+        button {
+            margin: 10px;
+        }
+
+        img {
+            margin: 10px 0px 0px;
+        }
+    </style>
+    <div class="container">
+        <header>
+            <header>
+                <div class="logo">
+                    <a href="#">
+                        <img width="980px" height="400px"
+                            src="http://files.vforum.vn/2013/T11/img/diendanbaclieu-34648-download-island-wallpaper-1024x768.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="index1.html">TRANG CHỦ</a>
+                    </li>
+                    <li>
+                        <a href="index2.html">SẢN PHẨM</a>
+                    </li>
+                    <li>
+                        <a href="index4.html">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </header>
+        </header>
+        <main>
+            <div class="main-container">
+                <div id="products">
+
+                </div>
+            </div>
+        </main>
+        <script src="main2.js"></script>
+        <footer>
+            <h2>Assignment</h2>
+        </footer>
+    </div>
+</body>
+
+</html>
